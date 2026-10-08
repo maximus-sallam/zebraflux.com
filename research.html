@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research — ZebraFlux, Inc.</title>
+<meta name="description" content="ZebraFlux research: dual-system AI architectures for real-time interactive characters, behavioral continuity, and efficient training.">
+<link rel="icon" type="image/png" href="assets/zebraflux-logo-official.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/zebraflux-logo-official.png" alt="ZebraFlux logo">
+      <span class="brand-name">ZebraFlux<span>, Inc.</span></span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="research.html" class="active">Research</a>
+      <a href="team.html">Team</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner" style="grid-template-columns:1fr">
+    <div>
+      <span class="eyebrow">Research</span>
+      <h1>Research that has to survive contact with reality.</h1>
+      <p class="lede">Our research program develops the architectures behind the ZebraFlux AI Character Engine. We run falsifiable experiments, keep what survives, and discard the rest.</p>
+    </div>
+  </div>
+</section>
+<div class="stripe-band"></div>
+
+<section class="wrap">
+  <p class="section-label">Program</p>
+  <h2 class="section-title">What we investigate.</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="kicker">Direction 01</div>
+      <h3>Dual-system character architectures</h3>
+      <p>How to couple a fast, continuously-evaluating system with a slower deliberative one so that a character's behavior stays coherent across an entire interaction — not just fluent for a single line.</p>
+    </div>
+    <div class="card">
+      <div class="kicker">Direction 02</div>
+      <h3>State-driven behavior</h3>
+      <p>Characters whose reactions are selected by persistent internal state — mood, history, consequence — rather than by the immediate prompt alone. The same input should be able to draw different reactions depending on what the character carries into the moment.</p>
+    </div>
+    <div class="card">
+      <div class="kicker">Direction 03</div>
+      <h3>Efficient training</h3>
+      <p>Methods for reaching capable small models on limited compute: training regimes, data curation, and evaluation designs that extract the most signal per GPU-hour.</p>
+    </div>
+  </div>
+</section>
+
+<div class="stripe-band thin"></div>
+
+<section class="wrap narrow">
+  <p class="section-label">Method</p>
+  <h2 class="section-title">How we work.</h2>
+  <p>Every claim we care about gets a control condition. We design ablations that can kill our own hypotheses — shuffled inputs, deranged signals, yoked baselines — and we report what fails alongside what survives. Null results redirect the program; they don't get buried.</p>
+  <p>We publish selectively and file intellectual property before disclosing novel methods. Collaboration inquiries from research groups and industry are welcome.</p>
+  <div style="margin-top:36px">
+    <a class="btn dark" href="contact.html">Inquire about collaboration</a>
+  </div>
+</section>
+
+<div class="stripe-band thin"></div>
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">
+        <img src="assets/zebraflux-logo-official-dark.png" alt="ZebraFlux logo">
+        <strong>ZebraFlux, Inc.</strong>
+      </div>
+      <p style="font-size:.95rem;max-width:32em">A veteran-owned AI research company providing broad software engineering and cybersecurity solutions for government and business.</p>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <a href="about.html">About Us</a>
+      <a href="team.html">Team</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div>
+      <h4>What We Do</h4>
+      <a href="solutions.html">Solutions</a>
+      <a href="solutions.html#character-engine">AI Character Engine</a>
+      <a href="research.html">Research</a>
+    </div>
+  </div>
+  <div class="fineprint">
+    <span>© <span id="yr">2026</span> ZebraFlux, Inc. All rights reserved.</span>
+    <span>Veteran-owned · Michigan, USA</span>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
