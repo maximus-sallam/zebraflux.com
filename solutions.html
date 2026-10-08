@@ -6,6 +6,9 @@
 <title>Solutions — ZebraFlux, Inc.</title>
 <meta name="description" content="ZebraFlux solutions: the ZebraFlux AI Character Engine for real-time interactive characters, custom software engineering, and cybersecurity solutions for government and business.">
 <link rel="icon" type="image/png" href="assets/zebraflux-logo-official.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -28,86 +31,115 @@
   </div>
 </header>
 
-<section class="hero">
-  <div class="hero-inner" style="grid-template-columns:1fr">
-    <div>
-      <span class="eyebrow">Solutions</span>
+<section class="hero-photo hero-short">
+  <img class="bg" src="assets/engine-figure.webp" alt="Character figure dissolving into zebra stripes">
+  <div class="scrim"></div>
+  <div class="hero-inner">
+    <div class="constrain">
+      <span class="chip">Solutions</span>
       <h1>What we build and what we deliver.</h1>
       <p class="lede">One flagship product in development, plus engineering and security services for clients who need work done to production standards.</p>
     </div>
   </div>
 </section>
-<div class="stripe-band"></div>
 
 <section class="wrap" id="character-engine">
-  <p class="section-label">Product · In Development</p>
+  <p class="eyebrow">Product · In development</p>
   <h2 class="section-title">ZebraFlux AI Character Engine</h2>
-  <div class="split">
-    <div>
-      <p>Real-time AI software for believable interactive characters in video games, virtual worlds, and companion applications.</p>
-      <p>Most game and virtual-world characters today run on dialogue trees or stateless language-model calls: fluent for a line, amnesiac across a session. The Character Engine is built around a different premise — characters whose behavior emerges from persistent internal state, consequence, and memory.</p>
-      <p>The architecture couples a fast, continuously-evaluating system with a slower deliberative one, so a character can react in the moment and still hold a coherent thread across an interaction.</p>
+  <p class="section-sub">Real-time AI software for believable interactive characters in video games, virtual worlds, and companion applications.</p>
+  <div class="feature">
+    <div class="f-media"><img src="assets/engine-figure.webp" alt="Stylized character formed from zebra stripes"></div>
+    <div class="f-text">
+      <h3>Behavior from state, not scripts.</h3>
+      <p>Most interactive characters run on dialogue trees or stateless model calls. The Character Engine couples a fast, continuously-evaluating system with a slower deliberative one, so a character can react in the moment and still hold a coherent thread across an interaction.</p>
+      <ul>
+        <li>Persistent internal state across a session</li>
+        <li>Reactions selected by history and consequence</li>
+        <li>Real-time operation for games and virtual worlds</li>
+      </ul>
     </div>
-    <div>
-      <h3>Intended applications</h3>
-      <p class="muted">Video games — non-player characters with continuity across sessions.<br><br>
-      Virtual worlds — inhabitants that remember and develop.<br><br>
-      Companion applications — consistent, long-horizon interaction.</p>
-      <h3 style="margin-top:28px">Status</h3>
-      <p class="muted">In development. We are selective about what we disclose before release. Licensing and partnership inquiries are welcome — <a href="contact.html" style="font-weight:700">talk to us</a>.</p>
+  </div>
+  <div class="icon-cards">
+    <div class="icon-card">
+      <div class="glyph"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+      <h3>Video games</h3>
+      <p>Non-player characters with continuity across sessions — not one-line performances.</p>
+    </div>
+    <div class="icon-card">
+      <div class="glyph"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14 0 18M12 3c-3 3.5-3 14 0 18"/></svg></div>
+      <h3>Virtual worlds</h3>
+      <p>Inhabitants that remember, develop, and respond to a living environment.</p>
+    </div>
+    <div class="icon-card">
+      <div class="glyph"><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 1 1-3.5-6.6M21 4v5h-5"/></svg></div>
+      <h3>Companion applications</h3>
+      <p>Consistent, long-horizon interaction instead of reset-every-session chat.</p>
+    </div>
+  </div>
+  <p class="section-sub" style="margin-top:36px"><strong>Status:</strong> in development. We are selective about what we disclose before release. Licensing and partnership inquiries are welcome — <a href="contact.html" style="font-weight:700">talk to us</a>.</p>
+</section>
+
+<section class="wrap tight" id="engineering" style="background:var(--wash)">
+  <div style="max-width:var(--maxw);margin:0 auto;padding:0 28px">
+    <p class="eyebrow">Services</p>
+    <h2 class="section-title">Software Engineering</h2>
+    <div class="feature">
+      <div class="f-media icon-panel">
+        <svg viewBox="0 0 24 24"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6M13 4l-2 16"/></svg>
+      </div>
+      <div class="f-text">
+        <h3>Built for production conditions.</h3>
+        <p>Custom software design, development, and systems integration for commercial and government clients. We take on work where correctness under real constraints matters.</p>
+        <ul>
+          <li>Custom application development</li>
+          <li>Systems and platform engineering (Linux, Android)</li>
+          <li>Integration and automation</li>
+          <li>Technical consulting and architecture review</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
 
-<div class="stripe-band thin"></div>
-
-<section class="wrap" id="engineering">
-  <p class="section-label">Services</p>
-  <h2 class="section-title">Software Engineering</h2>
-  <div class="split">
-    <div>
-      <p>Custom software design, development, and systems integration for commercial and government clients. We take on work where correctness under real constraints matters — production systems, platform engineering, and automation.</p>
-    </div>
-    <div>
-      <h3>Areas</h3>
-      <p class="muted">Custom application development<br><br>
-      Systems and platform engineering (Linux, Android)<br><br>
-      Integration and automation<br><br>
-      Technical consulting and architecture review</p>
-    </div>
-  </div>
-</section>
-
-<div class="stripe-band thin"></div>
-
-<section class="wrap" id="cybersecurity">
-  <p class="section-label">Services</p>
+<section class="wrap tight" id="cybersecurity">
+  <p class="eyebrow">Services</p>
   <h2 class="section-title">Cybersecurity</h2>
-  <div class="split">
-    <div>
+  <div class="feature flip">
+    <div class="f-media icon-panel">
+      <svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+    </div>
+    <div class="f-text">
+      <h3>Security from people who've run the infrastructure.</h3>
       <p>Security assessment, hardening, and consulting grounded in years of production infrastructure experience — incident response, enterprise security consulting, and systems administration at scale.</p>
+      <ul>
+        <li>Security assessments and hardening</li>
+        <li>Infrastructure security review</li>
+        <li>Consulting for government and business clients</li>
+      </ul>
     </div>
-    <div>
-      <h3>Areas</h3>
-      <p class="muted">Security assessments and hardening<br><br>
-      Infrastructure security review<br><br>
-      Consulting for government and business clients</p>
-    </div>
-  </div>
-  <div style="margin-top:48px">
-    <a class="btn dark" href="contact.html">Discuss your project</a>
   </div>
 </section>
 
-<div class="stripe-band thin"></div>
+<section class="cta-pad">
+  <div class="cta-banner">
+    <img class="bg" src="assets/hero-zebra.webp" alt="">
+    <div class="scrim"></div>
+    <div class="cta-inner">
+      <h2>Discuss your project.</h2>
+      <p>Product licensing, an engineering engagement, or a security review — start with a conversation.</p>
+      <a class="btn" href="contact.html">Contact us</a>
+    </div>
+  </div>
+</section>
+
 <footer>
   <div class="footer-inner">
     <div>
       <div class="footer-brand">
         <img src="assets/zebraflux-logo-official-dark.png" alt="ZebraFlux logo">
-        <strong>ZebraFlux, Inc.</strong>
+        <strong style="color:#fff">ZebraFlux, Inc.</strong>
       </div>
-      <p style="font-size:.95rem;max-width:32em">A veteran-owned AI research company providing broad software engineering and cybersecurity solutions for government and business.</p>
+      <p style="font-size:.95rem;max-width:30em">A veteran-owned AI research company providing broad software engineering and cybersecurity solutions for government and business.</p>
     </div>
     <div>
       <h4>Company</h4>
@@ -116,10 +148,16 @@
       <a href="contact.html">Contact</a>
     </div>
     <div>
-      <h4>What We Do</h4>
-      <a href="solutions.html">Solutions</a>
+      <h4>Solutions</h4>
       <a href="solutions.html#character-engine">AI Character Engine</a>
-      <a href="research.html">Research</a>
+      <a href="solutions.html#engineering">Software Engineering</a>
+      <a href="solutions.html#cybersecurity">Cybersecurity</a>
+    </div>
+    <div>
+      <h4>Research</h4>
+      <a href="research.html">Program</a>
+      <a href="research.html#method">Method</a>
+      <a href="contact.html">Collaborate</a>
     </div>
   </div>
   <div class="fineprint">

@@ -6,6 +6,9 @@
 <title>Contact — ZebraFlux, Inc.</title>
 <meta name="description" content="Contact ZebraFlux, Inc.: product inquiries, services engagements, research collaboration.">
 <link rel="icon" type="image/png" href="assets/zebraflux-logo-official.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -28,68 +31,76 @@
   </div>
 </header>
 
-<section class="hero">
-  <div class="hero-inner" style="grid-template-columns:1fr">
-    <div>
-      <span class="eyebrow">Contact</span>
+<section class="hero-photo hero-short">
+  <img class="bg" src="assets/hero-zebra.webp" alt="Zebra in dramatic light" style="object-position:center 20%">
+  <div class="scrim"></div>
+  <div class="hero-inner">
+    <div class="constrain">
+      <span class="chip">Contact</span>
       <h1>Start a conversation.</h1>
       <p class="lede">Product inquiries, services engagements, research collaboration — tell us what you're working on.</p>
     </div>
   </div>
 </section>
-<div class="stripe-band"></div>
 
-<section class="wrap narrow">
-  <form id="contact-form" novalidate>
-    <div class="form-grid">
-      <div class="field">
-        <label for="cf-name">Name *</label>
-        <input id="cf-name" name="name" type="text" required autocomplete="name">
-      </div>
-      <div class="field">
-        <label for="cf-email">Email *</label>
-        <input id="cf-email" name="email" type="email" required autocomplete="email">
-      </div>
-      <div class="field">
-        <label for="cf-org">Organization</label>
-        <input id="cf-org" name="organization" type="text" autocomplete="organization">
-      </div>
-      <div class="field">
-        <label for="cf-type">Inquiry type *</label>
-        <select id="cf-type" name="type" required>
-          <option value="AI Character Engine">AI Character Engine — product / licensing</option>
-          <option value="Software engineering services">Software engineering services</option>
-          <option value="Cybersecurity services">Cybersecurity services</option>
-          <option value="Research collaboration">Research collaboration</option>
-          <option value="Other">Other</option>
-        </select>
-      </div>
-      <div class="field full">
-        <label for="cf-msg">Message *</label>
-        <textarea id="cf-msg" name="message" required></textarea>
+<section class="wrap">
+  <div class="contact-grid">
+    <div class="form-card">
+      <form id="contact-form" novalidate>
+        <div class="form-grid">
+          <div class="field">
+            <label for="cf-name">Name *</label>
+            <input id="cf-name" name="name" type="text" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="cf-email">Email *</label>
+            <input id="cf-email" name="email" type="email" required autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="cf-org">Organization</label>
+            <input id="cf-org" name="organization" type="text" autocomplete="organization">
+          </div>
+          <div class="field">
+            <label for="cf-type">Inquiry type *</label>
+            <select id="cf-type" name="type" required>
+              <option value="AI Character Engine">AI Character Engine — product / licensing</option>
+              <option value="Software engineering services">Software engineering services</option>
+              <option value="Cybersecurity services">Cybersecurity services</option>
+              <option value="Research collaboration">Research collaboration</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="field full">
+            <label for="cf-msg">Message *</label>
+            <textarea id="cf-msg" name="message" required></textarea>
+          </div>
+        </div>
+        <div style="margin-top:24px">
+          <button class="btn dark" type="submit" style="cursor:pointer;border:none">Send message</button>
+        </div>
+        <p class="form-note" id="cf-status" role="status"></p>
+      </form>
+    </div>
+    <div class="info-panel">
+      <img src="assets/about-herd.webp" alt="Zebra herd at dawn">
+      <div class="tx">
+        <h3>Prefer email directly?</h3>
+        <p>Write to us anytime:</p>
+        <p><a class="mail" href="mailto:zmax@zebraflux.com">zmax@zebraflux.com</a></p>
+        <p style="margin-top:18px">We read everything and reply to serious inquiries.</p>
       </div>
     </div>
-    <div style="margin-top:24px">
-      <button class="btn dark" type="submit" style="cursor:pointer">Send message</button>
-    </div>
-    <p class="form-note" id="cf-status" role="status"></p>
-  </form>
-
-  <div class="contact-alt">
-    <h3 style="margin-top:0">Prefer email directly?</h3>
-    <p class="muted" style="margin-bottom:0">Write to <a href="mailto:zmax@zebraflux.com" style="font-weight:700">zmax@zebraflux.com</a>. We read everything and reply to serious inquiries.</p>
   </div>
 </section>
 
-<div class="stripe-band thin"></div>
 <footer>
   <div class="footer-inner">
     <div>
       <div class="footer-brand">
         <img src="assets/zebraflux-logo-official-dark.png" alt="ZebraFlux logo">
-        <strong>ZebraFlux, Inc.</strong>
+        <strong style="color:#fff">ZebraFlux, Inc.</strong>
       </div>
-      <p style="font-size:.95rem;max-width:32em">A veteran-owned AI research company providing broad software engineering and cybersecurity solutions for government and business.</p>
+      <p style="font-size:.95rem;max-width:30em">A veteran-owned AI research company providing broad software engineering and cybersecurity solutions for government and business.</p>
     </div>
     <div>
       <h4>Company</h4>
@@ -98,10 +109,16 @@
       <a href="contact.html">Contact</a>
     </div>
     <div>
-      <h4>What We Do</h4>
-      <a href="solutions.html">Solutions</a>
+      <h4>Solutions</h4>
       <a href="solutions.html#character-engine">AI Character Engine</a>
-      <a href="research.html">Research</a>
+      <a href="solutions.html#engineering">Software Engineering</a>
+      <a href="solutions.html#cybersecurity">Cybersecurity</a>
+    </div>
+    <div>
+      <h4>Research</h4>
+      <a href="research.html">Program</a>
+      <a href="research.html#method">Method</a>
+      <a href="contact.html">Collaborate</a>
     </div>
   </div>
   <div class="fineprint">

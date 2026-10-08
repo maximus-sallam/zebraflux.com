@@ -6,6 +6,9 @@
 <title>Research — ZebraFlux, Inc.</title>
 <meta name="description" content="ZebraFlux research: dual-system AI architectures for real-time interactive characters, behavioral continuity, and efficient training.">
 <link rel="icon" type="image/png" href="assets/zebraflux-logo-official.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -28,60 +31,68 @@
   </div>
 </header>
 
-<section class="hero">
-  <div class="hero-inner" style="grid-template-columns:1fr">
-    <div>
-      <span class="eyebrow">Research</span>
+<section class="hero-photo hero-short">
+  <img class="bg" src="assets/research-dual.webp" alt="Two interweaving systems rendered as stripe-like data streams">
+  <div class="scrim"></div>
+  <div class="hero-inner">
+    <div class="constrain">
+      <span class="chip">Research</span>
       <h1>Research that has to survive contact with reality.</h1>
       <p class="lede">Our research program develops the architectures behind the ZebraFlux AI Character Engine. We run falsifiable experiments, keep what survives, and discard the rest.</p>
     </div>
   </div>
 </section>
-<div class="stripe-band"></div>
 
 <section class="wrap">
-  <p class="section-label">Program</p>
-  <h2 class="section-title">What we investigate.</h2>
-  <div class="cards">
-    <div class="card">
-      <div class="kicker">Direction 01</div>
+  <div class="center">
+    <p class="eyebrow">Program</p>
+    <h2 class="section-title">What we investigate.</h2>
+  </div>
+  <div class="icon-cards">
+    <div class="icon-card">
+      <div class="glyph"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l2.5 2.5M16.5 16.5L19 19M19 5l-2.5 2.5M7.5 16.5L5 19"/></svg></div>
+      <div class="kicker" style="font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px">Direction 01</div>
       <h3>Dual-system character architectures</h3>
       <p>How to couple a fast, continuously-evaluating system with a slower deliberative one so that a character's behavior stays coherent across an entire interaction — not just fluent for a single line.</p>
     </div>
-    <div class="card">
-      <div class="kicker">Direction 02</div>
+    <div class="icon-card">
+      <div class="glyph"><svg viewBox="0 0 24 24"><path d="M12 21c-6 0-9-4-9-9 4 0 6-2 7-5 2 4 8 5 12 5 0 5-4 9-10 9z"/><path d="M12 21v-8"/></svg></div>
+      <div class="kicker" style="font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px">Direction 02</div>
       <h3>State-driven behavior</h3>
-      <p>Characters whose reactions are selected by persistent internal state — mood, history, consequence — rather than by the immediate prompt alone. The same input should be able to draw different reactions depending on what the character carries into the moment.</p>
+      <p>Characters whose reactions are selected by persistent internal state — history, consequence, disposition — rather than by the immediate prompt alone. The same input should draw different reactions depending on what the character carries into the moment.</p>
     </div>
-    <div class="card">
-      <div class="kicker">Direction 03</div>
+    <div class="icon-card">
+      <div class="glyph"><svg viewBox="0 0 24 24"><path d="M13 2L4 14h6l-1 8 9-12h-6z"/></svg></div>
+      <div class="kicker" style="font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px">Direction 03</div>
       <h3>Efficient training</h3>
       <p>Methods for reaching capable small models on limited compute: training regimes, data curation, and evaluation designs that extract the most signal per GPU-hour.</p>
     </div>
   </div>
 </section>
 
-<div class="stripe-band thin"></div>
-
-<section class="wrap narrow">
-  <p class="section-label">Method</p>
-  <h2 class="section-title">How we work.</h2>
-  <p>Every claim we care about gets a control condition. We design ablations that can kill our own hypotheses — shuffled inputs, deranged signals, yoked baselines — and we report what fails alongside what survives. Null results redirect the program; they don't get buried.</p>
-  <p>We publish selectively and file intellectual property before disclosing novel methods. Collaboration inquiries from research groups and industry are welcome.</p>
-  <div style="margin-top:36px">
-    <a class="btn dark" href="contact.html">Inquire about collaboration</a>
+<section class="wrap tight" id="method" style="background:var(--wash)">
+  <div style="max-width:var(--maxw);margin:0 auto;padding:0 28px">
+    <div class="feature">
+      <div class="f-media"><img src="assets/research-dual.webp" alt="Interweaving fast and slow system streams"></div>
+      <div class="f-text">
+        <p class="eyebrow">Method</p>
+        <h3>Every claim gets a control condition.</h3>
+        <p>We design ablations that can kill our own hypotheses — shuffled inputs, deranged signals, yoked baselines — and we report what fails alongside what survives. Null results redirect the program; they don't get buried.</p>
+        <p>We publish selectively and file intellectual property before disclosing novel methods. Collaboration inquiries from research groups and industry are welcome.</p>
+        <p style="margin-top:22px"><a class="btn dark" href="contact.html">Inquire about collaboration</a></p>
+      </div>
+    </div>
   </div>
 </section>
 
-<div class="stripe-band thin"></div>
 <footer>
   <div class="footer-inner">
     <div>
       <div class="footer-brand">
         <img src="assets/zebraflux-logo-official-dark.png" alt="ZebraFlux logo">
-        <strong>ZebraFlux, Inc.</strong>
+        <strong style="color:#fff">ZebraFlux, Inc.</strong>
       </div>
-      <p style="font-size:.95rem;max-width:32em">A veteran-owned AI research company providing broad software engineering and cybersecurity solutions for government and business.</p>
+      <p style="font-size:.95rem;max-width:30em">A veteran-owned AI research company providing broad software engineering and cybersecurity solutions for government and business.</p>
     </div>
     <div>
       <h4>Company</h4>
@@ -90,10 +101,16 @@
       <a href="contact.html">Contact</a>
     </div>
     <div>
-      <h4>What We Do</h4>
-      <a href="solutions.html">Solutions</a>
+      <h4>Solutions</h4>
       <a href="solutions.html#character-engine">AI Character Engine</a>
-      <a href="research.html">Research</a>
+      <a href="solutions.html#engineering">Software Engineering</a>
+      <a href="solutions.html#cybersecurity">Cybersecurity</a>
+    </div>
+    <div>
+      <h4>Research</h4>
+      <a href="research.html">Program</a>
+      <a href="research.html#method">Method</a>
+      <a href="contact.html">Collaborate</a>
     </div>
   </div>
   <div class="fineprint">

@@ -6,6 +6,9 @@
 <title>ZebraFlux, Inc. — AI Research, Software Engineering & Cybersecurity</title>
 <meta name="description" content="ZebraFlux, Inc. is a veteran-owned AI research company building the ZebraFlux AI Character Engine and providing broad software engineering and cybersecurity solutions for government and business.">
 <link rel="icon" type="image/png" href="assets/zebraflux-logo-official.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -28,87 +31,116 @@
   </div>
 </header>
 
-<section class="hero">
+<section class="hero-photo">
+  <img class="bg" src="assets/hero-zebra.webp" alt="Zebra in dramatic black-and-white studio light">
+  <div class="scrim"></div>
   <div class="hero-inner">
-    <div>
-      <span class="eyebrow">Veteran-Owned AI Company</span>
+    <div class="constrain">
+      <span class="chip">Veteran-Owned AI Company</span>
       <h1>Real-time AI characters. Serious software engineering.</h1>
-      <p class="lede">ZebraFlux, Inc. is a veteran-owned AI research company. We are building the ZebraFlux AI Character Engine — real-time software for believable interactive characters — and we provide broad software engineering and cybersecurity solutions for government and business.</p>
-      <a class="btn" href="solutions.html">What we do</a>
+      <p class="lede">ZebraFlux, Inc. is building the ZebraFlux AI Character Engine — real-time software for believable interactive characters — and delivering broad software engineering and cybersecurity solutions for government and business.</p>
+      <a class="btn" href="solutions.html">Explore solutions</a>
       <a class="btn ghost" href="contact.html">Contact us</a>
     </div>
-    <div class="hero-mark">
-      <img src="assets/zebraflux-logo-official-dark.png" alt="ZebraFlux brush-stroke Z mark">
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="center">
+    <p class="eyebrow">What we do</p>
+    <h2 class="section-title">One product. Two service practices.</h2>
+    <p class="section-sub">Research and production under one roof — the research program builds the Character Engine, and the services practice applies the same engineering discipline to client work.</p>
+  </div>
+  <div class="media-cards">
+    <a class="media-card" href="solutions.html#character-engine">
+      <div class="ph"><img src="assets/engine-figure.webp" alt="Stylized character figure dissolving into zebra stripes"></div>
+      <div class="tx">
+        <div class="kicker">Product · In development</div>
+        <h3>ZebraFlux AI Character Engine</h3>
+        <p>Real-time AI software for believable interactive characters in video games, virtual worlds, and companion applications.</p>
+        <span class="more">Learn more</span>
+      </div>
+    </a>
+    <a class="media-card" href="solutions.html#engineering">
+      <div class="ph tile">
+        <svg viewBox="0 0 24 24"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6M13 4l-2 16"/></svg>
+      </div>
+      <div class="tx">
+        <div class="kicker">Services</div>
+        <h3>Software Engineering</h3>
+        <p>Custom software design, development, and systems integration for commercial and government clients.</p>
+        <span class="more">Learn more</span>
+      </div>
+    </a>
+    <a class="media-card" href="solutions.html#cybersecurity">
+      <div class="ph tile">
+        <svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+      </div>
+      <div class="tx">
+        <div class="kicker">Services</div>
+        <h3>Cybersecurity</h3>
+        <p>Security assessment, hardening, and consulting grounded in years of production infrastructure experience.</p>
+        <span class="more">Learn more</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="band">
+  <div class="band-inner">
+    <div class="stat"><div class="v">2024</div><div class="l">Incorporated in Michigan</div></div>
+    <div class="stat"><div class="v">Veteran-owned</div><div class="l">U.S. Army veteran leadership</div></div>
+    <div class="stat"><div class="v">R&amp;D + Services</div><div class="l">Product and client work</div></div>
+    <div class="stat"><div class="v">Gov &amp; Commercial</div><div class="l">Clients across both sectors</div></div>
+  </div>
+</section>
+
+<section class="wrap">
+  <p class="eyebrow">The product</p>
+  <h2 class="section-title">Characters with continuity.</h2>
+  <div class="feature">
+    <div class="f-media"><img src="assets/engine-figure.webp" alt="Character figure formed from zebra stripes"></div>
+    <div class="f-text">
+      <p>Most game and virtual-world characters run on dialogue trees or stateless model calls: fluent for a line, amnesiac across a session. The ZebraFlux AI Character Engine is built on a different premise — behavior that emerges from persistent internal state, consequence, and memory.</p>
+      <ul>
+        <li>Fast reactive layer coupled with a slower deliberative layer</li>
+        <li>State-driven reactions: the same input, different response, depending on history</li>
+        <li>Built for games, virtual worlds, and companion applications</li>
+      </ul>
+      <p style="margin-top:22px"><a class="btn dark" href="solutions.html#character-engine">About the engine</a></p>
+    </div>
+  </div>
+  <div class="feature flip">
+    <div class="f-media"><img src="assets/research-dual.webp" alt="Two interweaving systems rendered as stripe-like data streams"></div>
+    <div class="f-text">
+      <p class="eyebrow">Research</p>
+      <h3>We research what we ship.</h3>
+      <p>Our internal program investigates dual-system AI architectures: a fast, continuously-evaluating system coupled with a slower deliberative one. Every claim gets a control condition. What survives goes into the engine.</p>
+      <p style="margin-top:22px"><a class="btn dark" href="research.html">Research program</a></p>
     </div>
   </div>
 </section>
-<div class="stripe-band"></div>
 
-<section class="wrap">
-  <p class="section-label">Who we are</p>
-  <h2 class="section-title">An AI research company with an operator's discipline.</h2>
-  <div class="split">
-    <p>ZebraFlux, Inc. is a Michigan corporation founded in 2024 and led by CEO Jonathan Nausley and CTO Maximus Sallam. We work where research meets production: novel AI architectures on one side, hardened systems engineering on the other.</p>
-    <p>Our research program targets interactive characters whose behavior emerges from internal state, consequence, and memory — not scripted dialogue trees. Our services practice applies the same rigor to custom software and cybersecurity engagements.</p>
-  </div>
-  <div class="facts">
-    <div class="fact"><div class="v">2024</div><div class="l">Incorporated in Michigan</div></div>
-    <div class="fact"><div class="v">Veteran-owned</div><div class="l">U.S. Army veteran leadership</div></div>
-    <div class="fact"><div class="v">AI Character Engine</div><div class="l">Flagship product in development</div></div>
-    <div class="fact"><div class="v">Gov &amp; commercial</div><div class="l">Services for government and business</div></div>
+<section class="cta-pad">
+  <div class="cta-banner">
+    <img class="bg" src="assets/about-herd.webp" alt="">
+    <div class="scrim"></div>
+    <div class="cta-inner">
+      <h2>Have a project, a partnership, or a research question?</h2>
+      <p>Tell us what you're working on. We read everything and reply to serious inquiries.</p>
+      <a class="btn" href="contact.html">Start a conversation</a>
+    </div>
   </div>
 </section>
 
-<div class="stripe-band thin"></div>
-
-<section class="wrap">
-  <p class="section-label">What we do</p>
-  <h2 class="section-title">Three lines of work.</h2>
-  <div class="cards">
-    <a class="card" href="solutions.html#character-engine">
-      <div class="kicker">Product</div>
-      <h3>ZebraFlux AI Character Engine</h3>
-      <p>Real-time AI software for believable interactive characters in video games, virtual worlds, and companion applications.</p>
-      <span class="more">Learn more</span>
-    </a>
-    <a class="card" href="solutions.html#engineering">
-      <div class="kicker">Services</div>
-      <h3>Software Engineering</h3>
-      <p>Custom software design, development, and systems integration for commercial and government clients.</p>
-      <span class="more">Learn more</span>
-    </a>
-    <a class="card" href="solutions.html#cybersecurity">
-      <div class="kicker">Services</div>
-      <h3>Cybersecurity</h3>
-      <p>Security assessment, hardening, and consulting grounded in years of production infrastructure experience.</p>
-      <span class="more">Learn more</span>
-    </a>
-  </div>
-</section>
-
-<div class="stripe-band thin"></div>
-
-<section class="wrap">
-  <p class="section-label">Research</p>
-  <h2 class="section-title">We research what we ship.</h2>
-  <div class="split">
-    <p>Our internal research program investigates dual-system AI architectures: a fast, continuously-evaluating system coupled with a slower deliberative one. The goal is characters with genuine behavioral continuity — persistence of state across an interaction, not just fluent next sentences.</p>
-    <p>We run falsifiable experiments, publish selectively, and feed what survives into the Character Engine. <a href="research.html" style="font-weight:700">Read about our research program →</a></p>
-  </div>
-  <div style="margin-top:36px">
-    <a class="btn dark" href="contact.html">Start a conversation</a>
-  </div>
-</section>
-
-<div class="stripe-band thin"></div>
 <footer>
   <div class="footer-inner">
     <div>
       <div class="footer-brand">
         <img src="assets/zebraflux-logo-official-dark.png" alt="ZebraFlux logo">
-        <strong>ZebraFlux, Inc.</strong>
+        <strong style="color:#fff">ZebraFlux, Inc.</strong>
       </div>
-      <p style="font-size:.95rem;max-width:32em">A veteran-owned AI research company providing broad software engineering and cybersecurity solutions for government and business.</p>
+      <p style="font-size:.95rem;max-width:30em">A veteran-owned AI research company providing broad software engineering and cybersecurity solutions for government and business.</p>
     </div>
     <div>
       <h4>Company</h4>
@@ -117,10 +149,16 @@
       <a href="contact.html">Contact</a>
     </div>
     <div>
-      <h4>What We Do</h4>
-      <a href="solutions.html">Solutions</a>
+      <h4>Solutions</h4>
       <a href="solutions.html#character-engine">AI Character Engine</a>
-      <a href="research.html">Research</a>
+      <a href="solutions.html#engineering">Software Engineering</a>
+      <a href="solutions.html#cybersecurity">Cybersecurity</a>
+    </div>
+    <div>
+      <h4>Research</h4>
+      <a href="research.html">Program</a>
+      <a href="research.html#method">Method</a>
+      <a href="contact.html">Collaborate</a>
     </div>
   </div>
   <div class="fineprint">
