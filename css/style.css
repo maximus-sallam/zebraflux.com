@@ -129,7 +129,7 @@ h1, h2, h3 { font-family: var(--display); letter-spacing: -0.025em; line-height:
 .photo-frame .cap { font-size: .82rem; letter-spacing: .1em; text-transform: uppercase; color: #b9b9b4; text-align: center; padding: 0 20px; }
 img.photo-frame { width: 100%; height: 100%; object-fit: cover; }
 .member .bio { padding: 36px 34px; }
-.member .bio h3 { margin: 0 0 4px; font-size: 1.5rem; }
+.member .bio h2 { margin: 0 0 4px; font-size: 1.5rem; }
 .member .role { font-weight: 700; color: var(--muted); font-size: .95rem; margin-bottom: 16px; }
 .member .bio p { color: var(--muted); margin: 0; }
 
@@ -147,14 +147,14 @@ img.photo-frame { width: 100%; height: 100%; object-fit: cover; }
 .info-panel { border-radius: var(--radius); overflow: hidden; background: var(--ink); color: #fff; }
 .info-panel img { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
 .info-panel .tx { padding: 32px; }
-.info-panel h3 { margin: 0 0 10px; }
+.info-panel h2 { margin: 0 0 10px; }
 .info-panel p { color: #c9c9c5; margin: 0 0 8px; }
 .info-panel a.mail { color: #fff; font-weight: 700; font-size: 1.1rem; }
 
 /* ---------- footer ---------- */
 footer { background: var(--ink); color: #cfcfcb; margin-top: 0; }
 .footer-inner { max-width: var(--maxw); margin: 0 auto; padding: 64px 28px 36px; display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 44px; }
-.footer-inner h4 { color: #fff; margin: 0 0 14px; font-size: .95rem; font-family: var(--body); letter-spacing: .06em; text-transform: uppercase; }
+.footer-inner h3 { color: #fff; margin: 0 0 14px; font-size: .95rem; font-family: var(--body); letter-spacing: .06em; text-transform: uppercase; }
 .footer-inner a { color: #cfcfcb; text-decoration: none; display: block; padding: 5px 0; }
 .footer-inner a:hover { color: #fff; }
 .footer-brand { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
