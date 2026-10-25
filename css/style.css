@@ -158,7 +158,7 @@ footer { background: var(--ink); color: #cfcfcb; margin-top: 0; }
 .footer-inner a { color: #cfcfcb; text-decoration: none; display: block; padding: 5px 0; }
 .footer-inner a:hover { color: #fff; }
 .footer-brand { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
-.footer-brand img { height: 38px; }
+.footer-brand img { height: 38px; width: auto; }
 .fineprint { max-width: var(--maxw); margin: 0 auto; padding: 22px 28px 30px; font-size: .85rem; color: #8b8b86; border-top: 1px solid #26262a; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
 
 /* ---------- responsive ---------- */
