@@ -1,0 +1,8 @@
+Contact: mailto:msallam@zebraflux.com
+Expires: 2027-01-12T00:00:00Z
+Encryption: https://zebraflux.com/.well-known/openpgp-key.asc
+Acknowledgements: https://zebraflux.com/acknowledgements
+Canonical: https://zebraflux.com/.well-known/security.txt
+Hiring: https://zebraflux.com/careers
+Policy: https://zebraflux.com/security-policy
+Preferred-Languages: en

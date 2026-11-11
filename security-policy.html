@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Security Policy — ZebraFlux, Inc.</title>
+<meta name="description" content="ZebraFlux, Inc. responsible disclosure policy: how to report a security vulnerability, and what reporters can expect.">
+<link rel="icon" type="image/png" href="assets/favicon-64.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .prose { max-width: 46em; }
+  .prose p, .prose li { line-height: 1.65; }
+  .prose ul { padding-left: 1.3em; }
+  .prose li { margin: 6px 0; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .92em; word-break: break-all; }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/zebraflux-logo-official-128.webp" alt="ZebraFlux logo" width="128" height="129">
+      <span class="brand-name">ZebraFlux<span>, Inc.</span></span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="research.html">Research</a>
+      <a href="team.html">Team</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+
+<section class="hero-photo hero-short">
+  <img class="bg" src="assets/hero-zebra.webp" srcset="assets/hero-zebra-640.webp 640w, assets/hero-zebra-1024.webp 1024w, assets/hero-zebra-1600.webp 1600w, assets/hero-zebra.webp 2736w" sizes="100vw" fetchpriority="high" alt="Zebra in dramatic light" style="object-position:center 20%">
+  <div class="scrim"></div>
+  <div class="hero-inner">
+    <div class="constrain">
+      <span class="chip">Security</span>
+      <h1>Security policy.</h1>
+      <p class="lede">How to report a vulnerability to ZebraFlux, and what you can expect from us in return.</p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap tight">
+  <div class="prose">
+    <h2>Responsible disclosure</h2>
+    <p>ZebraFlux, Inc. welcomes reports from security researchers and the public. If you believe you have found a security vulnerability affecting zebraflux.com or a ZebraFlux service, please tell us first and give us a reasonable opportunity to correct it before disclosing it publicly.</p>
+    <h2>How to report</h2>
+    <p>Email <a href="mailto:msallam@zebraflux.com">msallam@zebraflux.com</a>. For sensitive details, encrypt your report with our OpenPGP key:</p>
+    <ul>
+      <li>Public key: <a href="/.well-known/openpgp-key.asc">zebraflux.com/.well-known/openpgp-key.asc</a></li>
+      <li>Fingerprint: <span class="mono">2780 4690 9DA7 C09E 35AA DDC6 DFA6 B9EA 1902 43B4</span></li>
+    </ul>
+    <p>Please include a description of the issue, the affected URL or system, steps to reproduce, and the impact as you understand it.</p>
+    <h2>What we ask</h2>
+    <ul>
+      <li>Make a good-faith effort to avoid privacy violations, data destruction, and service disruption.</li>
+      <li>Do not access, modify, or delete data that does not belong to you; stop and report as soon as you encounter it.</li>
+      <li>Do not run denial-of-service attacks or automated scanning that degrades our services.</li>
+      <li>Do not use social engineering, phishing, or physical attacks.</li>
+    </ul>
+    <h2>Our commitments</h2>
+    <ul>
+      <li>We will acknowledge your report within three business days.</li>
+      <li>We will keep you informed as we investigate and remediate.</li>
+      <li>We will not pursue legal action against researchers who act in good faith under this policy.</li>
+      <li>With your permission, we will credit your contribution on our <a href="/acknowledgements">acknowledgements page</a>.</li>
+    </ul>
+    <p>Our machine-readable disclosure file is published as <a href="/.well-known/security.txt">security.txt</a> (RFC 9116).</p>
+  </div>
+</section>
+
+</main>
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">
+        <img src="assets/zebraflux-logo-official-dark-128.webp" alt="ZebraFlux logo" width="128" height="129">
+        <strong style="color:#fff">ZebraFlux, Inc.</strong>
+      </div>
+      <p style="font-size:.95rem;max-width:30em">A veteran-owned AI research company providing broad software engineering and cybersecurity solutions for government and business.</p>
+    </div>
+    <div>
+      <h3>Company</h3>
+      <a href="about.html">About Us</a>
+      <a href="team.html">Team</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div>
+      <h3>Solutions</h3>
+      <a href="solutions.html#character-engine">AI Character Engine</a>
+      <a href="solutions.html#engineering">Software Engineering</a>
+      <a href="solutions.html#cybersecurity">Cybersecurity</a>
+    </div>
+    <div>
+      <h3>Research</h3>
+      <a href="research.html">Program</a>
+      <a href="research.html#method">Method</a>
+      <a href="contact.html">Collaborate</a>
+    </div>
+  </div>
+  <div class="fineprint">
+    <span>© <span id="yr">2026</span> ZebraFlux, Inc. All rights reserved.</span>
+    <span>Veteran-owned · Michigan, USA</span>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/6643040607f59932ab3f4c1a/1htqsfe61';
+        s1.charset='UTF-8';
+        s0.parentNode.insertBefore(s1,s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>
